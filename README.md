@@ -37,6 +37,14 @@ It all operates based on a system of **Nodes** and **Beams**:
 - Each **Beam** exists between two **Nodes** and keeps a reference to both.
 - On top of the compression/tension system is a basic collision detector needed for driveable paved beams - a "wheel" node will collide with any paved beam.
 
+## How to get and run:
+```bash
+git clone https://github.com/woyard/Mostex
+pip3 install pygame
+cd ./Mostex
+python3 main.py
+```
+
 ## Note on architecture:
 The code is split into multiple files, but I left a large degree of intercommunication between the component modules. 
 So it needs to load a reference to a 'game' handler for most other objects, at least for painting stuff to display. 
