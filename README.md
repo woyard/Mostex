@@ -31,9 +31,9 @@ It all operates based on a system of **Nodes** and **Beams**:
 - **Nodes** are physical points with mass, inertia, and gravity.
 - **Beams** convey forces - they have a set default length and will apply forces to nodes, depending on if they are in tension or compression.
 - **Beams** will change color depending on the force applied:  
-  - <span style="color: blue;">Blue</span>: at rest  
-  - More <span style="color: green;">Green</span>: in tension  
-  - More <span style="color: red;">Red</span>: in compression  
+  - 🔵 **Blue**: At rest  
+  - 🟢 **Green**: In tension  
+  - 🔴 **Red**: In compression  
 - Each **Beam** exists between two **Nodes** and keeps a reference to both.
 - On top of the compression/tension system is a basic collision detector needed for driveable paved beams - a "wheel" node will collide with any paved beam.
 
