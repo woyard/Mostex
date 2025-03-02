@@ -26,6 +26,10 @@ However, I enjoyed working on it so much that it ended up going far beyond the o
 ### Level 1
 <img width="800" alt="Level 1" src="https://github.com/user-attachments/assets/b497a274-586c-4060-b5ad-ff32f92c8cbd" />
 
+### Underlying physics objects made visible
+<img width="800" alt="Underlying physics" src="https://github.com/user-attachments/assets/d47598a0-d833-4df1-99d8-28edabd2850a" />
+
+
 ## Physics overview:
 It all operates based on a system of **Nodes** and **Beams**:
 - **Nodes** are physical points with mass, inertia, and gravity.
